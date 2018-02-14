@@ -65,7 +65,8 @@ function LoadFile(){
     url: file,
     success: function(data){
         var data_array = data.split(/\r\n|\r|\n/);
-		console.log(data_array);
+	var data_split = data_array[0].split(" ");
+	console.log(data_split);
         $("#txt").text(data);
     }    
 });
