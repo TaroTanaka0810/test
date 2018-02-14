@@ -70,12 +70,12 @@ function LoadFile(){
 	var place = data_split.splice(0,1);
 	var itemNum = {};
 	itemNum[place] = [];
-	for(var i=;i<data_split.length;i++){
+	for(var i=0;i<data_split.length;i++){
 		itemNum[place].push(data_split[i]);	
 	}
 	console.log(itemNum[place]);
         $("#txt").text(data);
-    }    
+    }
 });
     
     // $("#txt").load(file);
