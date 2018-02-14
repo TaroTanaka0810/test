@@ -1,0 +1,166 @@
+.rikaido-matrix{
+    width: 60px;
+}
+#icon{
+	width: 100px;
+	height:70px;
+}
+.copy:hover {
+  background: #eeeeee;
+}
+
+
+/*#graph{
+	text-align: center;
+	top: 160px;
+	left :610px;
+	position: fixed;
+	z-index: 1;
+}*/
+#mycanvas{
+
+
+
+}
+.canvas{
+width: 200px;
+height:200px;
+}
+
+#displayChoise{
+	/*float: right;*/
+	position: absolute;
+	left:1000px;
+	top: 50px;
+}
+.place {
+	display: inline-block;
+
+	/*font-size: 50px;*/
+}
+
+input[type=radio] {
+	display: none; 	/* ラジオボタンを非表示にする */
+}
+.label {
+	display: block;		 /*ブロックレベル要素化する  */
+	float: left;		/* 要素の左寄せ・回り込を指定する */ 
+	margin: 5px;		/* ボックス外側の余白を指定する */
+	width: 100px;		/* ボックスの横幅を指定する */
+	height: 45px;		/* ボックスの高さを指定する */
+	padding-left: 5px;	/* ボックス内左側の余白を指定する */
+	padding-right: 5px;	/* ボックス内御右側の余白を指定する */
+	color: #b20000;			/* フォントの色を指定 */
+	text-align: center;	/* テキストのセンタリングを指定する */
+	line-height: 45px;	/* 行の高さを指定する */
+	cursor: pointer;		/* マウスカーソルの形（リンクカーソル）を指定する */
+	border: 2px solid #006DD9; /* ボックスの境界線を実線で指定する */
+	border-radius: 5px;		/* 角丸を指定する */
+}
+
+.sticky_table {
+  /*display: block;*/
+  position: relative;
+  overflow: scroll;
+  /*width: calc(100vw - 3.0rem);*/
+  /*height: calc(75vh);*/
+  border-collapse: collapse;
+  font-size: 0;
+}
+
+/*.sticky_table thead
+{
+	display: table-header-group;
+width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.sticky_table tbody {
+  display: table-row-group;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}*/
+
+#selector {
+	position: sticky;
+	left: 0px;
+	top: 0px;
+}
+#filter{
+	display: inline-block;
+	position: sticky;
+	left: 0px;
+	top:0px;
+
+}
+
+.cpythead td{
+ width: 50px;
+}
+
+#CopyBody th{
+  position: sticky;
+  left:0;
+  z-index: 30;
+}
+
+/*.sticky_table thead,
+.sticky_table tbody {
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}*/
+
+
+.sticky_table td {
+  /*display: inline-block;*/
+/*  width: 8.0rem;*/
+  /*background: #fff;*/
+  /*font-size: 1.0rem;*/
+  font-size: 5px;
+
+}
+
+.sticky_table th {
+	/*display: "";*/
+  /*width: 8.0rem;*/
+
+  background: #FAFAFA;
+  /*font-size: 1.0rem;*/
+  font-size: 5px;
+
+}
+
+.sticky_table tbody th.item {
+  /*display: inline-block;*/
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+.sticky_table thead tr th {
+	font-size: 5px;
+}
+
+.sticky_table thead tr th{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /*background: #000000;*/
+  z-index: 2;
+}
+
+.sticky_table thead .blank {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+
+.sticky_table {
+	font-size: 20px;
+}
