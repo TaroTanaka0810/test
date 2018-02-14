@@ -67,6 +67,13 @@ function LoadFile(){
         var data_array = data.split(/\r\n|\r|\n/);
 	var data_split = data_array[0].split(" ");
 	console.log(data_split);
+	var place = data_split.splice(0,1);
+	var itemNum = {};
+	itemNum[place] = [];
+	for(var i=;i<data_split.length;i++){
+		itemNum[place].push(data_split[i]);	
+	}
+	console.log(itemNum[place]);
         $("#txt").text(data);
     }    
 });
